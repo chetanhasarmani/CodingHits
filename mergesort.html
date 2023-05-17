@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merge Sort</title>
+    <link rel="stylesheet" href="bubble.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="./images/icons8-solidity-80.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container overflow-x-hidden ">
+        <div class="subwrapper" >
+
+            <h1 class="heading mt-10 text-5xl font-medium ">Merge Sort</h1>
+            <p class="mt-14 text-lg font-light leading-7 tracking-wider mb-14  ">Insertion Sort check two number of list and change its Position with correct Position in any order may be Assending or Dessinding Order. Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. The array is virtually split into a sorted and an unsorted part. Values from the unsorted part are picked and placed at the correct position in the sorted part.</p>
+            <img src="./images/mergesort.gif" width="700px" height="30px"  alt="">
+            <p class="mt-8 text-2xl mb-5">Merge Sort Implementation</p>
+
+            <div class="flex justify-between mt-20 mb-9 w-[90%]   "> 
+                    <p class="capitalize text-6xl  font-thin  py-5   " >The <br> Syntax <br> For Merge <br> Sort In Javascript</p>
+                    <pre class="text-base text-white   ">  
+                function merge(left, right) {
+                    let arr = []
+                    // Break out of loop if any one of the array gets empty
+                    while (left.length && right.length) {
+                    // Pick the smaller among the smallest element of left and right sub arrays 
+                        if (left[0] &lt; right[0]) {
+                             arr.push(left.shift())  
+                        } else {
+                           arr.push(right.shift()) 
+                        }
+                    }
+                            
+                    // Concatenating the leftover elements
+                    // (in case we didn't go through the entire left or right array)
+                    return [ ...arr, ...left, ...right ]
+                }
+                
+                    </pre>
+
+            </div>
+
+            <div class="w-[90%] h-[1px] mx-auto  bg-[#DEB992] "></div>
+
+            <div class="flex justify-between mt-20 w-[90%]  "> 
+                <p class="capitalize text-6xl  font-thin  pb-10 " >The <br> Merge <br> Sort <br> Algorithm <br> Analysis</p>
+                <pre class="text-lg text-white   ">  
+                    Best Case: O(nlogn)
+                    Average Case: O(nlogn)
+                    Worst Case: O(nlogn)
+                    Space Complecity: O(n)
+                    Merge Short Algorithm are External Shorting Algorithm
+                    Merge Short Algorithm are Recursive Shorting Algorithm
+                    Stability: Yes Merge Short Algorithm Are Stable Algorithm
+                    Adpative: Yes Merge Short Algorithm Are Adpative Algorithm
+                    Merge Short Algorithm are Slower Algorithm then Other
+     
+                </pre>
+
+        </div>   
+
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insertion Sort</title>
+    <link rel="stylesheet" href="bubble.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="./images/icons8-solidity-80.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container overflow-x-hidden">
+        <div class="subwrapper">
+
+            <h1 class="heading mt-10 text-5xl font-medium ">Insertion Sort</h1>
+            <p class="mt-14 text-lg font-light leading-7 tracking-wider mb-14  ">Insertion Sort check two number of list and change its Position with correct Position in any order may be Assending or Dessinding Order. Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. The array is virtually split into a sorted and an unsorted part. Values from the unsorted part are picked and placed at the correct position in the sorted part.</p>
+            <img src="./images/insertion_sort_gif.gif" width="600px" height="30px"  alt="">
+            <p class="mt-8 text-2xl mb-5">Insertion Sort Implementation</p>
+
+            <div class="flex justify-around mt-20 mb-9 w-[90%]  "> 
+                    <p class="capitalize text-6xl  font-thin  py-5  w-[50%] " >The <br> Syntax <br> For Insertion <br> Sort In Javascript</p>
+                    <pre class="text-lg text-white   ">  
+                    insertionSort(arr):
+                        for i = 1 to n-1
+                            key = arr[i]
+                            j = i-1
+                            while j >= 0 and arr[j] > key
+                                swap arr[j+1] with arr[j]
+                                j = j - 1
+                            end while
+                        end for
+                    end function
+                
+                    </pre>
+
+            </div>
+
+            <div class="w-[90%] h-[1px] mx-auto  bg-[#DEB992] "></div>
+
+            <div class="flex justify-between mt-20 w-[90%]  "> 
+                <p class="capitalize text-6xl  font-thin  pb-10 " >The <br> Insertion <br> Sort <br> Algorithm <br> Analysis</p>
+                <pre class="text-lg text-white   ">  
+                    Best Case: O(n)
+                    Average Case: O(n^2)
+                    Worst Case: O(n^2)
+                    Space Complecity: 1
+                    Insertion Short Algorithm are Internal Shorting Algorithm
+                    Insertion Short Algorithm are Non-Recursive Shorting Algorithm
+                    Stability: Yes Insertion Short Algorithm Are Stable Algorithm
+                    Adpative: Yes Insertion Short Algorithm Are Adpative Algorithm
+     
+                </pre>
+
+        </div>   
+
+        </div>
+
+    </div>
+</body>
+</html>
