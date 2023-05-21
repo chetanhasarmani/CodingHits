@@ -3,10 +3,7 @@
 @tailwind base;
 @tailwind components;
 
-.heading{
-    @apply mt-10 text-5xl font-medium
-    
-}
+
 
 .txt{
      text-transform: capitalize;
@@ -42,6 +39,22 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
 } */
+
+
+.heading{
+    margin-top:2.5rem ;
+    font-size:3rem ;
+    font-weight:500 ;
+    /* @apply mt-10 text-5xl font-medium */
+    
+}
+.para{
+    margin-top: 3.5rem;
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 1.75rem;
+    letter-spacing: 0.05em;
+}
 
 .container{
     color: var(--txtgold);
