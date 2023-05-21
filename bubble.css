@@ -9,8 +9,12 @@
 }
 
 .txt{
-    @apply
-    capitalize text-6xl  font-thin  py-5  w-[50%]
+     text-transform: capitalize;
+    font-size: 3.75rem;
+    font-weight: 100;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    width: 50%;
 }
 @tailwind utilities;
 
