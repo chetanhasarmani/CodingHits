@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selection Sort </title>
+    <link rel="stylesheet" href="bubble.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="./images/icons8-solidity-80.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container overflow-x-hidden ">
+        <div class="subwrapper" >
+
+            <h1 class="heading lg:mt-10 lg:text-5xl text-3xl font-medium ">Selection Sort</h1>
+            <p class="mt-14 text-lg font-light leading-7 tracking-wider mb-14    ">Selection Sort Algorithm work on the Principal of Divide and Conquer. It picks an element as pivot and partitions the given array around the picked pivot. There are many different versions of quickSort that pick pivot in different ways.</p>
+            <img src="./images/selectionsort.gif" width="700px" height="30px"  alt="">
+            <p class="lg:mt-8 lg:text-2xl lg:mb-5 text-xl mt-4">selection Sort Implementation</p>
+
+            <div class="lg:flex lg:justify-around lg:mt-20 mt-11 lg:mb-9 w-[90%]   "> 
+                    <p class="capitalize text-6xl font-thin  py-5   " >The <br> Syntax <br> For Selection <br> Sort In Javascript</p>
+                    <pre class="lg:text-lg text-white ml-[-180px]  overflow-x-auto  ">  
+                        function selectionSort(inputArr) { 
+                            let n = inputArr.length;
+                                
+                            for(let i = 0; i &lt; n; i++) {
+                                // Finding the smallest number in the subarray
+                                let min = i;
+                                for(let j = i+1; j &lt; n; j++){
+                                    if(inputArr[j] &lt; inputArr[min]) {
+                                        min=j; 
+                                    }
+                                 }
+                                 if (min != i) {
+                                     // Swapping the elements
+                                     let tmp = inputArr[i]; 
+                                     inputArr[i] = inputArr[min];
+                                     inputArr[min] = tmp;      
+                                }
+                            }
+                            return inputArr;
+                        }
+                
+                    </pre>
+
+            </div>
+
+            <div class="w-[90%] h-[1px] mx-auto  bg-[#DEB992] "></div>
+
+            <div class="lg:flex sm:flex-row overflow-x-auto lg:justify-between mt-20 w-[90%]   "> 
+                <p class="capitalize text-6xl  font-thin  pb-10 " >The <br> Selection <br> Sort <br> Algorithm <br> Analysis</p>
+                <pre class="lg:text-lg text-white  ml-[-180px] overflow-x-auto   ">  
+                    Best Case: O(n^2)
+                    Average Case: O(n^2)
+                    Worst Case: O(n^2)
+                    Space Complecity: 1
+                    Selection Short Algorithm are Internal Shorting Algorithm
+                    Selection Short Algorithm are Non-Recursive Shorting Algorithm
+                    Stability: No Selection Short Algorithm Are Not Stable Algorithm
+                    Adpative: No Selection Short Algorithm Are Not Adpative Algorithm
+                </pre>
+
+        </div>   
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
