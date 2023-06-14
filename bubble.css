@@ -29,6 +29,70 @@ html{
     --txtgold:#BFA181;
     --darkgold:#DEB992;
 }
+.subheading {
+    margin-top: 3.5rem;
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 1.75;
+    letter-spacing: 0.05em;
+    margin-bottom: 3.5rem;
+  }
+.pp{
+   
+        margin-top: 2.5rem;
+    
+        font-size: 3rem;
+    
+        font-weight: 500;
+    
+}
+.subpara {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+.subdiv2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+  margin-bottom: 2.25rem;
+  width: 90%;
+}
+.subpara2 {
+  text-transform: capitalize;
+  font-size: 4rem;
+  font-weight: 100;
+  padding-bottom: 2.5rem;
+  width: 50%;
+}
+.pretag {
+  font-size: 1.125rem;
+  color: white;
+  font-size: 0.75rem;
+  margin-left: -60px;
+  margin-bottom: 1rem;
+}
+.underline {
+  width: 90%;
+  height: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #DEB992;
+}
+.secdiv2 {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  justify-content: space-between;
+  margin-top: 5rem;
+  width: 90%;
+}
+.secpretag {
+  font-size: 1.125rem;
+  color: white;
+  font-size: 0.75rem;
+  margin-left: -130px;
+}
 
 /* body{
     
