@@ -89,9 +89,9 @@ html{
 }
 .secdiv2 {
   display: flex;
-   height: 430px;
+  
   flex-direction: row;
-  overflow-x: auto;
+  
   justify-content: space-between;
   margin-top: 3rem;
   width: 90%;
