@@ -66,9 +66,9 @@ html{
   width: 50%;
 }
 .pretag {
-  font-size: 1.125rem;
+  
   color: white;
-  font-size: 0.75rem;
+  font-size: 1.75rem;
   margin-left: -60px;
   margin-bottom: 1rem;
 }
@@ -88,9 +88,9 @@ html{
   width: 90%;
 }
 .secpretag {
-  font-size: 1.125rem;
+  f
   color: white;
-  font-size: 0.75rem;
+  font-size: 2rem;
   margin-left: -130px;
 }
 
